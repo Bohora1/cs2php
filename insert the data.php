@@ -40,7 +40,6 @@ foreach ($users as $user) {
         echo "Error inserting record: " . mysqli_error($conn) . "<br>";
     }
 }
-
 // Close the connection
 mysqli_close($conn);
 ?>
